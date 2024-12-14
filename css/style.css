@@ -1,0 +1,93 @@
+@font-face {
+    font-family: airport;
+    src: url(../font/Airport.ttf);
+}
+@font-face {
+    font-family: any;
+    src: url(../font/OKScU8ig.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #f4e1d7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+div{
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-direction: inline;
+}
+.logo{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    text-shadow: 1px 1px 1px #ff0000, 2px 2px 3px #560707;
+    font-family: airport;
+}
+.container{
+    display: flex;
+    flex-direction: inline;
+}
+.left-block{
+    display: flex;
+    flex-direction: column;
+}
+.inline-part{
+    display: flex;
+    flex-direction: inline-block;
+}
+nav{
+    margin: 0 30px;
+    position: relative;
+    z-index: 1000;
+}
+nav>ul{
+    display: flex;
+    flex-direction: inline;
+    justify-content: center;
+}
+nav>ul li{
+    margin-right: 30px;
+    font-family:any;
+    font-size:1.5rem;
+    display:flex;
+}
+a:hover{
+    cursor: pointer;
+    color:Brown;
+}
+.content{
+    font-size: 1.2rem;
+    flex-direction: column;
+    box-shadow: 1px 3px 3px black;
+    border:1px solid ;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding:5px 5px 5px 50px;
+    justify-content: center;
+    width: 85%;
+}
+.ad{
+    font-size: 1.2rem;
+    flex-direction: column;
+    width: 15%;
+}
+.news{
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+
+
